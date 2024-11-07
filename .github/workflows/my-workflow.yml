@@ -10,7 +10,7 @@ on:
         type: boolean
 
   pull_request:
-    types: [opened, reopened]
+    types: [opened, synchronize, reopened]
   
 jobs:
   install:
